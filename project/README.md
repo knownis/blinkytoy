@@ -3,7 +3,7 @@
 
 ## Use command make all and make load inside the project folder to create the program and load it into msp430. You can also use make load command inside SebsToy folder.
 
-#ENJOY
+# ENJOY
 
 
 
