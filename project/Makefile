@@ -1,8 +1,7 @@
 all:
 	(cd timerLib; make install)
 	(cd SebsToy; make)
-load:
-	(cd SebsToy; make load)
+//load
 
 
 	
