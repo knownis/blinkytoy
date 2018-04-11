@@ -7,12 +7,12 @@
 int 
 main() 
 {
-    configureClocks();		/* setup master oscillator, CPU & peripheral clocks */
+    //time
      switch_init();
      led_init();
       buzzer_init();
      
-    enableWDTInterrupts();	/* enable wd timer */
+   //wd
 
     or_sr(0x18);		/* CPU off, GIE on */
 }
